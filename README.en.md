@@ -39,7 +39,7 @@ Get the latest build from **[GitHub Releases](https://github.com/wendercurent/Ki
 
 ## Security (VirusTotal)
 
-Latest build report: https://www.virustotal.com/gui/file/SHA256_PLACEHOLDER
+Latest build report: [https://www.virustotal.com/gui/file/SHA256_PLACEHOLDER](https://www.virustotal.com/gui/file/5de353ae1e429012d8d2dc202bac9d16c893c0156987e9cf269aa293cad2aaba)
 
 Electron apps are often flagged as false positives by heuristics. Download only from official Releases and verify the hash on VirusTotal.
 
