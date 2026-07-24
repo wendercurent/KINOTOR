@@ -185,8 +185,6 @@ Kinotor — инструмент личного просмотра. Соблюд
 
 **English:** Kinotor, windows movie app, torrent streaming player, anime catalog, TMDB browser, watch party desktop, TorrServer client, media library movies
 
-**Рекомендуемые GitHub Topics** (Settings → General): `electron`, `windows`, `movies`, `anime`, `torrent`, `tmdb`, `shikimori`, `media-player`, `watch-party`, `russian`
-
 ---
 
 <div align="center">
