@@ -5,7 +5,7 @@
 **Бесплатный киноцентр для Windows** — фильмы, сериалы и аниме. Торрент-стриминг, медиатека, Watch Party.
 
 [![Скачать](https://img.shields.io/badge/Скачать-Releases-2ea44f?style=for-the-badge)](https://github.com/wendercurent/KinoTor/releases/latest)
-[![Версия](https://img.shields.io/badge/версия-0.1.4-blue)](https://github.com/wendercurent/KinoTor/releases/latest)
+[![Версия](https://img.shields.io/badge/версия-0.1.5-blue)](https://github.com/wendercurent/KinoTor/releases/latest)
 [![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D6?logo=windows&logoColor=white)](https://github.com/wendercurent/KinoTor/releases/latest)
 [![Beta](https://img.shields.io/badge/статус-публичная%20beta-orange)](CHANGELOG.md)
 
@@ -27,8 +27,6 @@
 
 ## Скриншоты
 
-> Положите PNG в `docs/screenshots/` — пути ниже уже настроены.
-
 | Главная | Карточка тайтла |
 |:---:|:---:|
 | ![Главная — популярное, медиатека](docs/screenshots/home.png) | ![Карточка фильма — торренты, сезоны](docs/screenshots/detail.png) |
@@ -48,7 +46,7 @@
 |**Фильмы и сериалы** | Популярное, поиск, жанры, коллекции TMDB, актёры |
 |**Аниме** | Лента, поиск и жанры Shikimori |
 |**Медиатека** | Избранное, «Хочу посмотреть», история, прогресс серий, оценки |
-|**Торренты** | Поиск по трекерам, менеджер, **стриминг без скачивания** (TorrServer) |
+|**Торренты** | Поиск по трекерам, менеджер, **просмотр без полной предварительной загрузки** (TorrServer, с использованием кэша) |
 |**Плееры** | Встроенный, VLC, MPV, MPC-BE |
 |**Субтитры** | Поиск и подключение к просмотру |
 |**Статистика** | Активность, шаринг постера библиотеки |
@@ -86,7 +84,7 @@
 ### 2. Установка
 
 1. Запустите установщик.
-2. SmartScreen: «Подробнее» → «Выполнить в любом случае» ([почему?](#проверка-на-virustotal)).
+2. Если SmartScreen выдаёт предупреждение, проверьте источник и хеш файла перед запуском ([проверка сборки](#проверка-на-virustotal)).
 3. Завершите мастер → Kinotor в меню «Пуск».
 
 **Portable:** сохраните `.exe` в папку и запустите.
@@ -105,13 +103,13 @@
 
 ## Проверка на VirusTotal
 
-Установщик проверяется перед каждым релизом:
+Для опубликованного установщика v0.1.5 доступен отчёт:
 
-🔗 **Последняя сборка:** https://www.virustotal.com/gui/file/5de353ae1e429012d8d2dc202bac9d16c893c0156987e9cf269aa293cad2aaba
+🔗 **Последняя сборка:** https://www.virustotal.com/gui/file/fc61e1db8bbea77445f43cd784a857f3d58feb53618ca4df77fb8606bd497766
 
 ### Почему антивирус может ругаться?
 
-Kinotor на **Electron** (как Discord, VS Code). Неподписанные сборки часто дают **ложные срабатывания** — это не вирус, если файл с [официального Releases](https://github.com/wendercurent/KinoTor/releases) и хеш совпадает с VT.
+Kinotor на **Electron** (как Discord, VS Code). Неподписанные сборки могут вызывать предупреждения. Скачивайте файл из [официальных Releases](https://github.com/wendercurent/KinoTor/releases), сверяйте SHA-256 с указанным для файла и изучайте отчёт VirusTotal; совпадение хеша само по себе не гарантирует безопасность.
 
 ---
 
