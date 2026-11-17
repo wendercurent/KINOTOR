@@ -4,7 +4,7 @@
 
 **Your personal media hub for Windows** — movies, TV shows, and anime in one desktop app.
 
-[![Version](https://img.shields.io/badge/version-0.1.4-blue)](https://github.com/wendercurent/KinoTor/releases/latest)
+[![Version](https://img.shields.io/badge/version-0.1.6-blue)](https://github.com/wendercurent/KinoTor/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D6?logo=windows&logoColor=white)](https://github.com/wendercurent/KinoTor/releases/latest)
 [![Status](https://img.shields.io/badge/status-public%20beta-orange)](CHANGELOG.md)
 
@@ -39,7 +39,7 @@ Get the latest build from **[GitHub Releases](https://github.com/wendercurent/Ki
 
 ## Security (VirusTotal)
 
-Latest build report: [v0.1.5 installer report](https://www.virustotal.com/gui/file/fc61e1db8bbea77445f43cd784a857f3d58feb53618ca4df77fb8606bd497766)
+VirusTotal reports for v0.1.6: [installer](https://www.virustotal.com/gui/file/41ac7f20ba0389fe04d9399f0be8afbe9fd0bd38aae42611c0dfa290e17f5835) · [portable](https://www.virustotal.com/gui/file/f11848bd9f9f4f41f0b862b04ed9c78c81b4e557c3464163b1ee5a06b96f2fe2). At the time of review, one of 67 engines flagged the portable build; the cause is unconfirmed.
 
 Unsigned Electron builds can trigger warnings. Download from official Releases, verify the asset's SHA-256 and review the VirusTotal report. A matching hash alone does not guarantee safety.
 
